@@ -49,7 +49,7 @@ pipeline {
       stage ('K8S Deploy') {
         steps {
            script {
-		//Material for refs:https://www.youtube.com/watch?v=5C6kzqeO4Ew, https://www.coachdevops.com/2020/06/deploy-python-app-into-kubernetes.html
+		//Material for refs:https://www.youtube.com/watch?v=rWrshVbvS_U&t=1077s, https://www.coachdevops.com/2020/06/deploy-python-app-into-kubernetes.html
                 //certificate-authority-data: caCertificate (copy all except certificate-authority-data)
                //Use commands for Kubernetes endpoint which is serverUrl: kubectl cluster-info
                //config_ola: ~/.kube/config. This can be got after the set up of your kubernetes and kubectl in the vm where kubectl is installed which your jenkin server (use command ~/.kube/config) 
